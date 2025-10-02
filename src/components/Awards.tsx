@@ -1,7 +1,13 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Award, Calendar, Upload } from "lucide-react";
+import { Award, Calendar, FileText } from "lucide-react";
 import { awards } from "@/data/portfolio-data";
 
 export function Awards() {
@@ -41,25 +47,22 @@ export function Awards() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-muted-foreground">{award.description}</p>
-                
-                {/* Certificate upload placeholder - will be functional with admin panel */}
-                <div className="flex items-center gap-2 pt-2">
-                  <Badge variant="outline" className="text-xs">
-                    Certificate
-                  </Badge>
-                  {award.certificate ? (
+
+                {award.certificate && (
+                  <div className="pt-2">
                     <Button size="sm" variant="outline" asChild>
-                      <a href={award.certificate} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={award.certificate}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2"
+                      >
+                        <FileText className="h-4 w-4" />
                         View Certificate
                       </a>
                     </Button>
-                  ) : (
-                    <span className="text-xs text-muted-foreground flex items-center gap-1">
-                      <Upload className="h-3 w-3" />
-                      Upload via admin panel
-                    </span>
-                  )}
-                </div>
+                  </div>
+                )}
               </CardContent>
             </Card>
           ))}

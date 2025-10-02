@@ -6,7 +6,7 @@ export const personalInfo = {
   location: "Boston, MA",
   linkedin: "linkedin.com/in/saurabh-lohokare",
   github: "github.com/Saurabhpl2408",
-  intro: "Passionate about building scalable web applications and data-driven solutions. I specialize in full-stack development with a focus on modern web technologies, analytics, and AI integration.",
+  intro: "Passionate about translating business requirements into effective technical solutions. I enjoy building scalable web applications and data-driven solutions. I specialize in full-stack development with a focus on modern web technologies, analytics, and AI integration."
 };
 
 export const education = [
@@ -25,57 +25,65 @@ export const education = [
     location: "Pune, India",
     degree: "Bachelor of Engineering in Information Technology",
     duration: "Jul 2019 – May 2023",
-    coursework: ["Distributed Systems", "Web Development", "Data Structures and Algorithms"],
+    coursework: [
+      "Distributed Systems",
+      "Web Development",
+      "Data Structures and Algorithms",
+    ],
     logo: "🎓",
   },
 ];
 
 export const skills = {
   "Programming Languages": [
-    { name: "Python", icon: "🐍" },
-    { name: "JavaScript", icon: "🟨" },
-    { name: "TypeScript", icon: "🔷" },
-    { name: "SQL", icon: "🗄️" },
-    { name: ".NET Core", icon: "🟣" },
-    { name: "Java", icon: "☕" },
+    { name: "Python", icon: "SiPython", color: "#3776AB" },
+    { name: "JavaScript", icon: "SiJavascript", color: "#F7DF1E" },
+    { name: "TypeScript", icon: "SiTypescript", color: "#3178C6" },
+    { name: "SQL", icon: "SiMysql", color: "#4479A1" },
+    { name: ".NET Core", icon: "SiDotnet", color: "#512BD4" },
+    { name: "Java", icon: "SiOpenjdk", color: "#437291" },
   ],
   "Web Technologies": [
-    { name: "React", icon: "⚛️" },
-    { name: "Next.js", icon: "▲" },
-    { name: "Node.js", icon: "🟢" },
-    { name: "Express.js", icon: "🚂" },
-    { name: "FastAPI", icon: "⚡" },
-    { name: "Tailwind CSS", icon: "🎨" },
+    { name: "React", icon: "SiReact", color: "#61DAFB" },
+    { name: "Next.js", icon: "SiNextdotjs", color: "#000000" },
+    { name: "Node.js", icon: "SiNodedotjs", color: "#339933" },
+    { name: "Express.js", icon: "SiExpress", color: "#000000" },
+    { name: "FastAPI", icon: "SiFastapi", color: "#009688" },
+    { name: "Tailwind CSS", icon: "SiTailwindcss", color: "#06B6D4" },
   ],
   "Analytics & Reporting": [
-    { name: "Google Tag Manager", icon: "🏷️" },
-    { name: "Google Analytics 4", icon: "📊" },
-    { name: "Looker Studio", icon: "📈" },
-    { name: "Grafana", icon: "📉" },
-    { name: "Tableau", icon: "📊" },
-    { name: "PowerBI", icon: "⚡" },
+    {
+      name: "Google Tag Manager",
+      icon: "SiGoogletagmanager",
+      color: "#246FDB",
+    },
+    { name: "Google Analytics 4", icon: "SiGoogleanalytics", color: "#E37400" },
+    { name: "Looker Studio", icon: "SiLooker", color: "#4285F4" },
+    { name: "Grafana", icon: "SiGrafana", color: "#F46800" },
+    { name: "Tableau", icon: "SiTableau", color: "#E97627" },
+    { name: "PowerBI", icon: "SiPowerbi", color: "#F2C811" }, // Correct: SiPowerbi (lowercase 'bi')
   ],
   "AI & Data": [
-    { name: "Hugging Face", icon: "🤗" },
-    { name: "LLMs", icon: "🤖" },
-    { name: "LangChain", icon: "🔗" },
-    { name: "NLP", icon: "💬" },
-    { name: "Computer Vision", icon: "👁️" },
-    { name: "Anomaly Detection", icon: "🔍" },
+    { name: "Hugging Face", icon: "SiHuggingface", color: "#FFD21E" },
+    { name: "LLMs", icon: "SiOpenai", color: "#412991" },
+    { name: "LangChain", icon: "SiChainlink", color: "#375BD2" },
+    { name: "NLP", icon: "SiPython", color: "#3776AB" },
+    { name: "Computer Vision", icon: "SiOpencv", color: "#5C3EE8" },
+    { name: "Anomaly Detection", icon: "SiDatadog", color: "#632CA6" },
   ],
   "Database & Testing": [
-    { name: "PostgreSQL", icon: "🐘" },
-    { name: "MongoDB", icon: "🍃" },
-    { name: "MySQL", icon: "🐬" },
-    { name: "Supabase", icon: "⚡" },
-    { name: "Jest", icon: "🃏" },
+    { name: "PostgreSQL", icon: "SiPostgresql", color: "#4169E1" },
+    { name: "MongoDB", icon: "SiMongodb", color: "#47A248" },
+    { name: "MySQL", icon: "SiMysql", color: "#4479A1" },
+    { name: "Supabase", icon: "SiSupabase", color: "#3ECF8E" },
+    { name: "Jest", icon: "SiJest", color: "#C21325" },
   ],
   "DevOps & Cloud": [
-    { name: "Docker", icon: "🐳" },
-    { name: "Kubernetes", icon: "☸️" },
-    { name: "Kafka", icon: "📨" },
-    { name: "AWS", icon: "☁️" },
-    { name: "BigQuery", icon: "📊" },
+    { name: "Docker", icon: "SiDocker", color: "#2496ED" },
+    { name: "Kubernetes", icon: "SiKubernetes", color: "#326CE5" },
+    { name: "Kafka", icon: "SiApachekafka", color: "#000000" }, // Kafka is also black
+    { name: "AWS", icon: "SiAmazonwebservices", color: "#FF9900" }, // Correct: SiAmazonwebservices (not SiAmazonaws)
+    { name: "BigQuery", icon: "SiGooglebigquery", color: "#669DF6" },
   ],
 };
 
@@ -111,7 +119,8 @@ export const projects = [
   {
     id: 1,
     name: "Obscenity Blocker Extension",
-    description: "Chrome extension detecting explicit content in real-time with 92% accuracy on sample datasets. Architected a modular microservices system processing 5–10 concurrent content streams efficiently.",
+    description:
+      "Chrome extension detecting explicit content in real-time with 92% accuracy on sample datasets. Architected a modular microservices system processing 5–10 concurrent content streams efficiently.",
     duration: "Aug 2023 – Nov 2023",
     github: "https://github.com/Saurabhpl2408/obscenity-blocker",
     tech: ["Chrome Extension", "Microservices", "Python", "Machine Learning"],
@@ -120,15 +129,19 @@ export const projects = [
   {
     id: 2,
     name: "Real-Time Event Analytics Platform",
-    description: "Microservices platform for event ingestion using Kafka, Python, and PostgreSQL, handling 500–1,000 events per minute. Deployed with Grafana dashboards for monitoring throughput and latency.",
+    description:
+      "Microservices platform for event ingestion using Kafka, Python, and PostgreSQL, handling 500–1,000 events per minute. Deployed with Grafana dashboards for monitoring throughput and latency.",
     duration: "Jan 2025 – May 2025",
+    github:
+      "https://github.com/Saurabhpl2408/real-time-event-analytics-dashboard",
     tech: ["Kafka", "Python", "PostgreSQL", "Grafana", "Microservices"],
     image: "📊",
   },
   {
     id: 3,
     name: "Conversational Analytics Dashboard",
-    description: "AI-powered dashboard with Next.js and MongoDB converting natural language queries to SQL. Integrated LangChain and Hugging Face models achieving 85% query accuracy, optimized for 10–20 concurrent users.",
+    description:
+      "AI-powered dashboard with Next.js and MongoDB converting natural language queries to SQL. Integrated LangChain and Hugging Face models achieving 85% query accuracy, optimized for 10–20 concurrent users.",
     duration: "May 2025 – Sep 2025",
     tech: ["Next.js", "MongoDB", "Django", "LangChain", "Hugging Face", "AI"],
     image: "💬",
@@ -138,21 +151,14 @@ export const projects = [
 export const publications = [
   {
     id: 1,
-    title: "Machine Learning Approaches for Real-Time Data Analytics",
+    title: "An Automated Solution for Department Data Management System (DDMS)",
     authors: "Saurabh Lohokare, et al.",
-    publication: "International Conference on Computing and Data Science",
+    publication:
+      "International Journal of Creative Research Thoughts (IJCRT), Volume 11, Issue 9",
     year: "2023",
-    link: "https://example.com/publication-1",
-    description: "Explored various machine learning techniques for processing and analyzing large-scale real-time data streams with applications in predictive analytics.",
-  },
-  {
-    id: 2,
-    title: "Optimizing Web Performance: A Study on Modern Frontend Frameworks",
-    authors: "Saurabh Lohokare",
-    publication: "Journal of Web Technologies",
-    year: "2022",
-    link: "https://example.com/publication-2",
-    description: "Comparative analysis of performance optimization strategies across React, Vue, and Angular frameworks.",
+    link: "https://ijcrt.org/papers/IJCRT2309035.pdf",
+    description:
+      "Proposed a Progressive Web App to automate departmental data management tasks such as attendance tracking, result mapping, and handling CSV, Excel, and scanned PDF files to improve efficiency in educational institutions.",
   },
 ];
 
@@ -161,65 +167,49 @@ export const awards = [
     id: 1,
     title: "Smart India Hackathon 2022",
     issuer: "Government of India",
-    date: "2022",
-    description: "Won the Smart India Hackathon 2022 along with my team for developing an innovative solution addressing real-world problems using cutting-edge technology.",
-    certificate: null, // Space for uploading certificate PDF
+    date: "August 2022",
+    description:
+      "My team Bitt By Bitt won the Smart India Hackathon 2022 with a solution to facilitate access to government schemes for disabled people through a progressive web app. The project was developed using React, Node.js, and MongoDB, and deployed on AWS, with accessibility-focused features to ensure ease of use for people with disabilities.",
+    certificate:
+      "/src/assets/certificates/Saurabh_Lohokare_SIH_Certificate.pdf",
   },
   {
     id: 2,
     title: "UNESCO India-Africa Hackathon 2022",
     issuer: "UNESCO",
-    date: "2022",
-    description: "Awarded winner at the UNESCO India-Africa Hackathon 2022 for creating impactful solutions promoting collaboration between India and African nations.",
-    certificate: null, // Space for uploading certificate PDF
+    date: "November 2022",
+    description:
+      "My team Hash Clashers won the UNESCO India-Africa Hackathon 2022, a 36-hour international event with 22 participating countries. Our project addressed the underutilization and lack of mechanisms for acting on partograms, a vital tool used during labor to monitor maternal and fetal health. We built a solution using Modular JavaScript, Node.js, Chart.js, and MongoDB to streamline partogram interpretation and enable timely medical decisions, with the goal of improving maternal healthcare outcomes.",
+    certificate:
+      "/src/assets/certificates/Saurabh_Lohokare_UIA_Certificate.pdf",
   },
 ];
 
 export const recommendations = [
   {
     id: 1,
-    name: "John Doe",
-    title: "Senior Software Engineer at Google",
-    location: "San Francisco, CA",
-    coordinates: [-122.4194, 37.7749], // [longitude, latitude]
-    image: "👤",
-    relationship: "Worked together at DealerOn",
-    text: "Saurabh is an exceptional developer with deep expertise in full-stack development. His work on our analytics platform was outstanding, and his ability to solve complex problems is truly impressive.",
-    date: "2024",
-  },
-  {
-    id: 2,
-    name: "Priya Sharma",
-    title: "Tech Lead at Amazon",
-    location: "Bangalore, India",
-    coordinates: [77.5946, 12.9716],
+    name: "Colleen Harris",
+    title: "Director of Product Insights at DealerIn",
+    location: "Seattle, Washington, United States",
     image: "👤",
     relationship: "Colleague at DealerOn",
-    text: "Working with Saurabh was a great experience. He brings innovation and dedication to every project. His technical skills combined with excellent communication make him a valuable team member.",
-    date: "2024",
+    text: "Saurabh was an amazing member of my tagging team. Our tagging system is the foundational layer for all data analytics and Saurabh jumped into the team headfirst. He asked very good questions and never asked the same question more than once. Saurabh was instrumental in building out a process to streamline a complicated tagging request system into a simple process. It took normal requests that started at 4-5 days to complete and he built the process that got it done within 24 hours. He will be an asset to any team he joins.",
+    date: "29th Sept 2025",
+    url: "https://www.linkedin.com/in/saurabh-lohokare/details/recommendations/",
   },
+
   {
-    id: 3,
-    name: "Michael Chen",
-    title: "Product Manager at Microsoft",
-    location: "Seattle, WA",
-    coordinates: [-122.3321, 47.6062],
+    id: 2,
+    name: "Gampeshwar Kumar Sahu",
+    title: "Principal Consultant at DealerOn",
+    location: "India",
+    coordinates: [78.9629, 20.5937],
     image: "👤",
-    relationship: "Collaborated on projects",
-    text: "Saurabh has a rare combination of technical excellence and business acumen. He consistently delivered high-quality work and was instrumental in the success of our GA4 migration project.",
-    date: "2023",
-  },
-  {
-    id: 4,
-    name: "Sarah Williams",
-    title: "Engineering Manager at Meta",
-    location: "London, UK",
-    coordinates: [-0.1276, 51.5074],
-    image: "👤",
-    relationship: "Mentor at Atomic Loops",
-    text: "During his internship, Saurabh demonstrated remarkable learning ability and professionalism. He quickly became a key contributor to our frontend team and exceeded all expectations.",
-    date: "2022",
-  },
+    relationship: "Manager at DealerOn",
+    text: "I had the pleasure of working with Saurabh in the tagging team, where he consistently demonstrated deep expertise in JavaScript, GA4, and Google Tag Manager. His ability to implement complex tracking solutions and troubleshoot intricate tagging issues was truly impressive. He played a key role in ensuring our analytics setup was robust, scalable, and aligned with business goals. What stood out most was his proactive approach to problem-solving and his willingness to collaborate across teams to deliver high-quality solutions. Whether it was setting up custom events, debugging data layers, or optimizing tag configurations, Saurabh always brought clarity and precision to the task. He's not only technically strong but also a great team player, and I highly recommend him for any role that requires strong analytical and implementation skills in the digital analytics space.",
+    date: "26th Sept 2025",
+    url: "https://www.linkedin.com/in/saurabh-lohokare/details/recommendations/",
+  }
 ];
 
 export const certifications = [
