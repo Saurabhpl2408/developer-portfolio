@@ -81,8 +81,8 @@ export const skills = {
   "DevOps & Cloud": [
     { name: "Docker", icon: "SiDocker", color: "#2496ED" },
     { name: "Kubernetes", icon: "SiKubernetes", color: "#326CE5" },
-    { name: "Kafka", icon: "SiApachekafka", color: "#000000" }, // Kafka is also black
-    { name: "AWS", icon: "SiAmazonwebservices", color: "#FF9900" }, // Correct: SiAmazonwebservices (not SiAmazonaws)
+    { name: "Kafka", icon: "SiApachekafka", color: "#000000" }, 
+    { name: "AWS", icon: "SiAmazonwebservices", color: "#FF9900" }, 
     { name: "BigQuery", icon: "SiGooglebigquery", color: "#669DF6" },
   ],
 };
@@ -137,14 +137,24 @@ export const projects = [
     tech: ["Kafka", "Python", "PostgreSQL", "Grafana", "Microservices"],
     image: "📊",
   },
+  // {
+  //   id: 3,
+  //   name: "Conversational Analytics Dashboard",
+  //   description:
+  //     "AI-powered dashboard with Next.js and MongoDB converting natural language queries to SQL. Integrated LangChain and Hugging Face models achieving 85% query accuracy, optimized for 10–20 concurrent users.",
+  //   duration: "May 2025 – Sep 2025",
+  //   tech: ["Next.js", "MongoDB", "Django", "LangChain", "Hugging Face", "AI"],
+  //   image: "💬",
+  // },
   {
     id: 3,
-    name: "Conversational Analytics Dashboard",
+    name: "InsightBot - AI Market Research Agent",
     description:
-      "AI-powered dashboard with Next.js and MongoDB converting natural language queries to SQL. Integrated LangChain and Hugging Face models achieving 85% query accuracy, optimized for 10–20 concurrent users.",
-    duration: "May 2025 – Sep 2025",
-    tech: ["Next.js", "MongoDB", "Django", "LangChain", "Hugging Face", "AI"],
-    image: "💬",
+      "AI-powered agent leveraging RAG pipelines and LLMs to extract, summarize, and visualize market insights from financial APIs, CSVs, and news sources. Integrated ChromaDB vector search with Hugging Face embeddings for context-aware retrieval.",
+    duration: "Sept 2025 – Present",
+    github: "https://github.com/Saurabhpl2408/insightbot-ai",
+    tech: ["Next.js", "Tailwind CSS", "ChromaDB", "Hugging Face", "RAG", "LLMs"],
+    image: "📈",
   },
 ];
 
