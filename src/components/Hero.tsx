@@ -52,7 +52,7 @@ export function Hero() {
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="/Saurabh_Lohokare_Resume.pdf" download className="flex items-center gap-2">
+                <a href="./Saurabh_Lohokare_Resume.pdf" download className="flex items-center gap-2">
                   <Download className="h-4 w-4" />
                   Download Resume
                 </a>
