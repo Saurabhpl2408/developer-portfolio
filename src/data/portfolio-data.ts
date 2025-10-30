@@ -199,7 +199,7 @@ export const recommendations = [
   {
     id: 1,
     name: "Colleen Harris",
-    title: "Director of Product Insights at DealerIn",
+    title: "Director of Product Insights at DealerOn",
     location: "Seattle, Washington, United States",
     image: "👤",
     relationship: "Colleague at DealerOn",
