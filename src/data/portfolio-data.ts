@@ -144,7 +144,7 @@ export const projects = [
     description: "MediTriage is a complete, AI-powered medical triage system that analyzes patient symptoms and provides intelligent urgency assessments in seconds. Think of it as having a knowledgeable medical assistant available 24/7.",
     duration: "Dec 2025 - Jan 2026",
     github: "https://github.com/Saurabhpl2408/meditriage",
-    tech : ["React, FastAPI, PostgreSQL, AWS(EC2, RDS, EKS), ChromaDB, RAG"],
+    tech : ["React", "FastAPI", "PostgreSQL", "AWS(EC2, RDS, EKS)", "ChromaDB", "RAG"],
     image: "🏥"
   },
   // {
@@ -157,7 +157,7 @@ export const projects = [
   //   image: "💬",
   // },
   {
-    id: 3,
+    id: 4,
     name: "InsightBot - AI Market Research Agent",
     description:
       "AI-powered agent leveraging RAG pipelines and LLMs to extract, summarize, and visualize market insights from financial APIs, CSVs, and news sources. Integrated ChromaDB vector search with Hugging Face embeddings for context-aware retrieval.",
