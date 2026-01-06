@@ -156,16 +156,16 @@ export const projects = [
   //   tech: ["Next.js", "MongoDB", "Django", "LangChain", "Hugging Face", "AI"],
   //   image: "💬",
   // },
-  {
-    id: 4,
-    name: "InsightBot - AI Market Research Agent",
-    description:
-      "AI-powered agent leveraging RAG pipelines and LLMs to extract, summarize, and visualize market insights from financial APIs, CSVs, and news sources. Integrated ChromaDB vector search with Hugging Face embeddings for context-aware retrieval.",
-    duration: "Sept 2025 – Present",
-    github: "https://github.com/Saurabhpl2408/insightbot-ai",
-    tech: ["Next.js", "Tailwind CSS", "ChromaDB", "Hugging Face", "RAG", "LLMs"],
-    image: "📈",
-  },
+  // {
+  //   id: 4,
+  //   name: "InsightBot - AI Market Research Agent",
+  //   description:
+  //     "AI-powered agent leveraging RAG pipelines and LLMs to extract, summarize, and visualize market insights from financial APIs, CSVs, and news sources. Integrated ChromaDB vector search with Hugging Face embeddings for context-aware retrieval.",
+  //   duration: "Sept 2025 – Present",
+  //   github: "https://github.com/Saurabhpl2408/insightbot-ai",
+  //   tech: ["Next.js", "Tailwind CSS", "ChromaDB", "Hugging Face", "RAG", "LLMs"],
+  //   image: "📈",
+  // },
 ];
 
 export const publications = [
