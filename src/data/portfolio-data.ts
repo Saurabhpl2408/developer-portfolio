@@ -137,6 +137,16 @@ export const projects = [
     tech: ["Kafka", "Python", "PostgreSQL", "Grafana", "Microservices"],
     image: "📊",
   },
+
+  {
+    id: 3,
+    name: "Meditriage",
+    description: "MediTriage is a complete, AI-powered medical triage system that analyzes patient symptoms and provides intelligent urgency assessments in seconds. Think of it as having a knowledgeable medical assistant available 24/7.",
+    duration: "Dec 2025 - Jan 2026",
+    github: "https://github.com/Saurabhpl2408/meditriage",
+    tech : ["React, FastAPI, PostgreSQL, AWS(EC2, RDS, EKS), ChromaDB, RAG"],
+    image: "🏥"
+  },
   // {
   //   id: 3,
   //   name: "Conversational Analytics Dashboard",
